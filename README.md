@@ -1,5 +1,56 @@
-#Работа с git и bash
-Bash2 
+#Работа с git и bash    
+[Bash1](https://drive.google.com/file/d/1igsAl17ifuRZigbMXYQ3JKHrK0KtWI-V/view?usp=sharing)   
+1. cd
+    Открыть домашнюю директорию через терминал
+2. pwd 
+    Определить имя папки, в которой вы находитесь
+3.mkdir test1
+    Создать внутри этой папки каталог с именем test1
+4. cd test1 
+    Перейти в папку test1
+5.touch 1 2 3
+    Создать файл 1,2 и 3 внутри каталога test1
+6. ls
+    Проверить содержимое каталога test1
+7.cd 
+    Перейти в домашнюю директорию
+8. mkdir test2
+    Создать папку test2 внутри домашней директории
+9. rmdir test2
+    Удалить папку test2
+10. cd test1 
+rm 2
+    Удалить файл 2 из папки test1
+11.cd
+mkdir test3 
+touch 1 2 
+    Создать папку в домашней директории test3 и добавить в нее два файла
+12. rm -r test31
+    Удалить папку test3
+13.cd
+mkdir test4
+    Создать папку test4 в домашней директории
+14.cd test1 
+mv 1 3 ~/test4/
+    ереместить файлы 1 и 3 из папки test1 в папку test4
+15.echo "line" >> 1&&
+echo "line" >> 1&&
+echo "line" >> 1
+    обавить в файл 1 три строки со словами line
+16. cd test4
+less 1
+    Посмотреть содержимое файла 1
+17. cd test4 
+echo "line" >> 3 && echo "line" >> 3 &&echo "line" >> 3
+    Добавьте в файл 3 три строки со словами line
+18. cat 1 3 
+    Просмотрите содержимое двух файлов (1 и 3) сразу
+19. nano 1 
+редактирование на новые строки 
+    Используя один из редакторов замените все строки в файле 1  
+
+
+[Bash2](https://drive.google.com/file/d/18WnTL8GSkRFf6cWs0URYuvCu6tTMimLO/view?usp=sharing)
 1. cd 
     Зайти в домашнюю директорию через терминал
 2. mkdir 
